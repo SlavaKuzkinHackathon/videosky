@@ -6,7 +6,7 @@ import Emitter from './Emitter';
  */
 class MediaDevice extends Emitter {
   /**
-   * Start media devices and send stream
+   * Start media devices and send stream 
    */
   start() {
    /*  var front = false; */
