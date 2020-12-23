@@ -9,11 +9,11 @@ class MediaDevice extends Emitter {
    * Start media devices and send stream
    */
   start() {
-    var front = false;
+   /*  var front = false; */
     const constraints = {
       video: {
-        facingMode: (front? "user" : "environment"),
-        /* facingMode: 'user', */
+       /*  facingMode: (front? "user" : "environment"), */
+        facingMode: 'user',
         height: { min: 360, ideal: 720, max: 1080 }
       },
       audio: true
