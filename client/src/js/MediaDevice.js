@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import Emitter from './Emitter';
 
-/**
+/***
  * Manage all media devices
  */
 class MediaDevice extends Emitter {
