@@ -1,4 +1,4 @@
-const adjs = ['zima','leto'
+const adjs = ['зима','лето'
 ]; 
 
 module.exports = () => {
