@@ -4,7 +4,7 @@ module.exports = () => {
   const num = Math.floor(Math.random() * ((MAX + 1) - MIN)) + MIN;
 
   return `${num}`;
-
+};
 
 
 /*const adjs = ['зима','лето'
