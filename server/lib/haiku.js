@@ -1,10 +1,19 @@
-const adjs = ['зима','лето'
+module.exports = () => {
+  const MIN = 999;
+  const MAX = 999;
+  const num = Math.floor(Math.random() * ((MAX + 1) - MIN)) + MIN;
+
+  return `${num}`;
+
+
+
+/*const adjs = ['зима','лето'
 ]; 
 
 module.exports = () => {
   const adj = adjs[Math.floor(Math.random() * adjs.length)];
   return `${adj}`;
-};
+};*/
 
 
 
